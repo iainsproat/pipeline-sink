@@ -28,8 +28,8 @@ var _ = Describe("Sink Checker", func() {
 			response := SUT.Check("A",
 				"GUID1",
 				[]string{
-				"pipelineA",
-				"pipelineB",
+				"SRP-1",
+				"SRP-2",
 			})
 			Expect(response).ToNot(Equal(true))
 		})
